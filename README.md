@@ -1,3 +1,3 @@
 # BERUNet-denoiser
 
-The code is being organized and is promised to be released by February 15
+The code is being organized and will be released within one month after the paper is published.
