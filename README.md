@@ -49,15 +49,19 @@ Running **BERUNet** requires the following dependencies: **PyTorch**, **OpenCV**
 ```
 |-- trainsets
    |-- SIDD
+      |-- noisy
+      |-- groundtruth
 ```
 **Testing Data:** Download the **SIDD Validation Set** from [Baidu Pan](https://pan.baidu.com/s/1JSyCpjLaZBWvHUCFlpeRyA?pwd=uvhn) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
 ```
 |-- testsets
    |-- original
       |-- SIDD
+         |-- noisy
+         |-- groundtruth
 ```
 ### 🔹 Pretrained Models
-Download pretrained models from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
+Download pretrained models from [Baidu Pan](https://pan.baidu.com/s/1nuzIsg1lNqmQ3Q3TKe3HPw?pwd=8ppt) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
 ```
 |-- model_zoo
    |-- BERUNet
