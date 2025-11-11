@@ -20,7 +20,8 @@ As a result, the current test results may **differ slightly** from those reporte
 ---
 ## Installation
 
-See [INSTALL.md](INSTALL.md) for the installation of dependencies required to run Restormer.
+Running **BERUNet** requires the following dependencies:  
+**PyTorch**, **OpenCV**, **NumPy**, and **fvcore**.
 
 ---
 ## Data and Pretrained Model Preparation
