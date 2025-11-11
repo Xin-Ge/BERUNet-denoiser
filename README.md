@@ -45,7 +45,7 @@ Running **BERUNet** requires the following dependencies: **PyTorch**, **OpenCV**
 ```
 ### 🔹 Real-World Noise Data
 
-**Training Data:** Download the **SIDD Training Set** from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
+**Training Data:** Download the **SIDD Training Set** from [Baidu Pan](https://pan.baidu.com/s/164cI2wbqwBVc7YaSKrLn4A?pwd=7nzd) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
 ```
 |-- trainsets
    |-- SIDD
