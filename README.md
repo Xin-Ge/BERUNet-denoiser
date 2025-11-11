@@ -52,7 +52,7 @@ Running **BERUNet** requires the following dependencies: **PyTorch**, **OpenCV**
       |-- noisy
       |-- groundtruth
 ```
-**Testing Data:** Download the **SIDD Validation Set** from [Baidu Pan](https://pan.baidu.com/s/1JSyCpjLaZBWvHUCFlpeRyA?pwd=uvhn) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
+**Testing Data:** Download the **SIDD Validation Set** from [Baidu Pan](https://pan.baidu.com/s/1JSyCpjLaZBWvHUCFlpeRyA?pwd=uvhn) or [Google Drive](https://drive.google.com/file/d/1wBTfba_6k-FxSQ-4CdvYc5gRTScV_0jV/view?usp=sharing). After downloading, place them in the following directory:
 ```
 |-- testsets
    |-- original
