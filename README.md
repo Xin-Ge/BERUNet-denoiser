@@ -124,7 +124,7 @@ If you use BERUNet, please consider citing:
         pages={1119},
         year={2025},
         publisher={MDPI AG}
-   }
+    }
 
 ---
 ## Contact
