@@ -1,0 +1,9 @@
+testsets/original
+   |--BSD68
+   |--Kodak24
+   |--McMaster
+   |--Set12
+   |--SIDD
+      |--groundtruth
+      |--noisy
+   |--Urban100
