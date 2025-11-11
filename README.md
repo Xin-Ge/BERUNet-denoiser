@@ -4,7 +4,6 @@
 
 Paper:[![paper](https://img.shields.io/badge/MDPI-Mathematics-blue.svg)](https://www.mdpi.com/2227-7390/13/7/1119)
 
-
 <hr />
 
 > **Abstract:** * Deep neural networks for image denoising typically follow an encoder–decoder model, with convolutional (Conv) layers as essential components. Conv layers apply zero padding at the borders of input data to maintain consistent output dimensions. However, zero padding introduces ring-like artifacts at the borders of output images, referred to as border effects, which negatively impact the network’s ability to learn effective features. In traditional methods, these border effects, associated with convolutional/deconvolutional operations, have been mitigated using patch-based techniques. Inspired by this observation, patch-wise denoising algorithms were explored to derive a CNN architecture that avoids border effects. Specifically, we extend the patch-wise autoencoder to learn image mappings through patch extraction and patch-averaging operations, demonstrating that the patch-wise autoencoder is equivalent to a specific convolutional neural network (CNN) architecture, resulting in a novel residual block. This new residual block includes a mask that enhances the CNN’s ability to learn border features and eliminates border artifacts, referred to as the Border-Enhanced Residual Block (BERBlock) . By stacking BERBlocks, weconstructed a U-Net denoiser (BERUNet). Experiments on public datasets demonstrate that the proposed BERUNet achieves outstanding performance. The proposed network architecture is built on rigorous mathematical derivations, making its working mechanism highly interpretable. The code and all pretrained models are publicly available.* 
@@ -12,18 +11,18 @@ Paper:[![paper](https://img.shields.io/badge/MDPI-Mathematics-blue.svg)](https:/
 
 ## Notice
 
-This code is a **heavily modified version** based on Kai Zhang’s [KAIR framework](https://github.com/cszn/KAIR).  
 After the publication of our paper, we **systematically revised** the implementation and **retrained all model parameters**.  
 As a result, the current test results may **differ slightly** from those reported in the paper:
 
 - **Gaussian noise removal** performance is **better** than in the published results.  
 - **Real-world noise removal** performance is **worse** than in the published results.
 
+---
 ## Installation
 
 See [INSTALL.md](INSTALL.md) for the installation of dependencies required to run Restormer.
 
-
+---
 ## Data and Pretrained Model Preparation
 
 ### Gaussian Noise Data
@@ -64,6 +63,7 @@ Download pretrained models from [Baidu Pan](https://github.com/cszn/KAIR). After
    |-- BERUNet
 ```
 
+---
 ## Testing
 
 After placing the testing data and pretrained models in the specified directories, run the following Python files. 
@@ -82,11 +82,10 @@ python main_test_BERUNet_Blind_v2_Gaussian.py
 python main_test_BERUNet_Blind_v2_Real.py
 ```
 
+---
 ## Training and Evaluation
 
 After placing the training data in the specified directories, modify the corresponding JSON file under the `options/` folder according to your hardware setup, then execute the following command lines:
-
----
 
 ### 🔹 Grayscale Gaussian Noise — Non-Blind Denoising
 ```
@@ -112,6 +111,7 @@ python main_train.py --opt options/train_BERUNet_Blind_v2_nb8_256_g020_Xavier_Co
 💡 **Tip:**  
 When running the above commands on a remote **Linux server**, it is recommended to use **tmux** to start a virtual session to prevent training from being interrupted.
 
+---
 ## Citation
 If you use BERUNet, please consider citing:
 
@@ -126,7 +126,7 @@ If you use BERUNet, please consider citing:
         publisher={MDPI AG}
    }
 
-
+---
 ## Contact
 Should you have any question, please contact gxin@mail.nwpu.edu.cn
 
