@@ -66,8 +66,7 @@ Download pretrained models from [Baidu Pan](https://github.com/cszn/KAIR). After
 
 ## Testing
 
-After placing the testing data and pretrained models in the specified directories,  
-run the following Python files.  
+After placing the testing data and pretrained models in the specified directories, run the following Python files. 
 Before execution, make sure to configure the testing dataset, color mode, and noise level within each `.py` file.
 
 ### 🔹 Gaussian Noise — Non-Blind Denoising
@@ -85,9 +84,7 @@ python main_test_BERUNet_Blind_v2_Real.py
 
 ## Training and Evaluation
 
-After placing the training data in the specified directories,  
-modify the corresponding JSON file under the `options/` folder according to your hardware setup,  
-then execute the following command lines:
+After placing the training data in the specified directories, modify the corresponding JSON file under the `options/` folder according to your hardware setup, then execute the following command lines:
 
 ---
 
@@ -113,8 +110,7 @@ python main_train.py --opt options/train_BERUNet_Blind_v2_nb8_256_g020_Xavier_Co
 ```
 
 💡 **Tip:**  
-When running the above commands on a remote **Linux server**,  
-it is recommended to use **tmux** to start a virtual session to prevent training from being interrupted.
+When running the above commands on a remote **Linux server**, it is recommended to use **tmux** to start a virtual session to prevent training from being interrupted.
 
 ## Citation
 If you use BERUNet, please consider citing:
@@ -128,12 +124,11 @@ If you use BERUNet, please consider citing:
         pages={1119},
         year={2025},
         publisher={MDPI AG}
-}
+   }
 
 
 ## Contact
 Should you have any question, please contact gxin@mail.nwpu.edu.cn
-
 
 **Acknowledgment:** This code is based on the [KAIR](https://github.com/cszn/KAIR) framework. 
 
