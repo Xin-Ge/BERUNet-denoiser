@@ -1,0 +1,1 @@
+The intermediate checkpoints are stored here during training.
