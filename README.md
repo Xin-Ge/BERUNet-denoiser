@@ -28,13 +28,13 @@ Running **BERUNet** requires the following dependencies:
 
 ### Gaussian Noise Data
 
-**Training Data:** Download from [Baidu Pan](https://github.com/cszn/KAIR), which includes BSD, WED, DIV2K, and Flickr2K datasets. After downloading, place them in the following directory:
+**Training Data:** Download from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR), which includes BSD, WED, DIV2K, and Flickr2K datasets. After downloading, place them in the following directory:
 ```
 |--trainsets 
    |--trainH
 ```
 
-**Testing Data:** Download from [Baidu Pan](https://github.com/cszn/KAIR), which includes Set12, BSD68, Kodak24, McMaster, and Urban100 datasets. After downloading, organize them as follows:
+**Testing Data:** Download from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR), which includes Set12, BSD68, Kodak24, McMaster, and Urban100 datasets. After downloading, organize them as follows:
 ```
 |-- testsets
    |-- original
@@ -46,19 +46,19 @@ Running **BERUNet** requires the following dependencies:
 ```
 ### Real-World Noise Data
 
-**Training Data:** Download the **SIDD Training Set** from [Baidu Pan](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
+**Training Data:** Download the **SIDD Training Set** from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
 ```
 |-- trainsets
    |-- SIDD
 ```
-**Testing Data:** Download the **SIDD Validation Set** from [Baidu Pan](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
+**Testing Data:** Download the **SIDD Validation Set** from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
 ```
 |-- testsets
    |-- original
       |-- SIDD
 ```
 ### Pretrained Models
-Download pretrained models from [Baidu Pan](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
+Download pretrained models from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
 ```
 |-- model_zoo
    |-- BERUNet
