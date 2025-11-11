@@ -6,7 +6,7 @@ Paper:[![paper](https://img.shields.io/badge/MDPI-Mathematics-blue.svg)](https:/
 
 <hr />
 
-> **Abstract:** * Deep neural networks for image denoising typically follow an encoder–decoder model, with convolutional (Conv) layers as essential components. Conv layers apply zero padding at the borders of input data to maintain consistent output dimensions. However, zero padding introduces ring-like artifacts at the borders of output images, referred to as border effects, which negatively impact the network’s ability to learn effective features. In traditional methods, these border effects, associated with convolutional/deconvolutional operations, have been mitigated using patch-based techniques. Inspired by this observation, patch-wise denoising algorithms were explored to derive a CNN architecture that avoids border effects. Specifically, we extend the patch-wise autoencoder to learn image mappings through patch extraction and patch-averaging operations, demonstrating that the patch-wise autoencoder is equivalent to a specific convolutional neural network (CNN) architecture, resulting in a novel residual block. This new residual block includes a mask that enhances the CNN’s ability to learn border features and eliminates border artifacts, referred to as the Border-Enhanced Residual Block (BERBlock) . By stacking BERBlocks, weconstructed a U-Net denoiser (BERUNet). Experiments on public datasets demonstrate that the proposed BERUNet achieves outstanding performance. The proposed network architecture is built on rigorous mathematical derivations, making its working mechanism highly interpretable. The code and all pretrained models are publicly available.* 
+> **Abstract:** Deep neural networks for image denoising typically follow an encoder–decoder model, with convolutional (Conv) layers as essential components. Conv layers apply zero padding at the borders of input data to maintain consistent output dimensions. However, zero padding introduces ring-like artifacts at the borders of output images, referred to as border effects, which negatively impact the network’s ability to learn effective features. In traditional methods, these border effects, associated with convolutional/deconvolutional operations, have been mitigated using patch-based techniques. Inspired by this observation, patch-wise denoising algorithms were explored to derive a CNN architecture that avoids border effects. Specifically, we extend the patch-wise autoencoder to learn image mappings through patch extraction and patch-averaging operations, demonstrating that the patch-wise autoencoder is equivalent to a specific convolutional neural network (CNN) architecture, resulting in a novel residual block. This new residual block includes a mask that enhances the CNN’s ability to learn border features and eliminates border artifacts, referred to as the Border-Enhanced Residual Block (BERBlock) . By stacking BERBlocks, weconstructed a U-Net denoiser (BERUNet). Experiments on public datasets demonstrate that the proposed BERUNet achieves outstanding performance. The proposed network architecture is built on rigorous mathematical derivations, making its working mechanism highly interpretable. The code and all pretrained models are publicly available.
 <hr />
 
 ## Notice
@@ -20,13 +20,12 @@ As a result, the current test results may **differ slightly** from those reporte
 ---
 ## Installation
 
-Running **BERUNet** requires the following dependencies:  
-**PyTorch**, **OpenCV**, **NumPy**, and **fvcore**.
+Running **BERUNet** requires the following dependencies: **PyTorch**, **OpenCV**, **NumPy**, and **fvcore**.
 
 ---
 ## Data and Pretrained Model Preparation
 
-### Gaussian Noise Data
+### 🔹 Gaussian Noise Data
 
 **Training Data:** Download from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR), which includes BSD, WED, DIV2K, and Flickr2K datasets. After downloading, place them in the following directory:
 ```
@@ -44,7 +43,7 @@ Running **BERUNet** requires the following dependencies:
       |-- McMaster
       |-- Urban100
 ```
-### Real-World Noise Data
+### 🔹 Real-World Noise Data
 
 **Training Data:** Download the **SIDD Training Set** from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
 ```
@@ -57,7 +56,7 @@ Running **BERUNet** requires the following dependencies:
    |-- original
       |-- SIDD
 ```
-### Pretrained Models
+### 🔹 Pretrained Models
 Download pretrained models from [Baidu Pan](https://github.com/cszn/KAIR) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
 ```
 |-- model_zoo
