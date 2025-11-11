@@ -11,11 +11,13 @@ Paper:[![paper](https://img.shields.io/badge/MDPI-Mathematics-blue.svg)](https:/
 
 ## Notice
 
-After the publication of our paper, we **systematically revised** the implementation and **retrained all model parameters**.  
-As a result, the current test results may **differ slightly** from those reported in the paper:
+After the publication of our paper, we thoroughly **rechecked and optimized** the implementation, and **retrained all model parameters**.
+As a result, the current test results may **differ** from those reported in the paper:
 
 - **Gaussian noise removal** performance is **better** than in the published results.  
 - **Real-world noise removal** performance is **worse** than in the published results.
+
+The current version does not overturn the main contributions or innovations presented in the paper, but rather provides a more faithful reflection of the model’s actual characteristics.
 
 ---
 ## Installation
