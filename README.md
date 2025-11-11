@@ -19,6 +19,9 @@ As a result, the current test results may **differ** from those reported in the 
 
 The current version does not overturn the main contributions or innovations presented in the paper, but rather provides a more faithful reflection of the model’s actual characteristics.
 
+💡 **Tip:**  
+The baseline method described in the paper is implemented in ```models/network_BERUNet.py```. We do not provide its pretrained model, but you may train and test it yourself as needed.
+
 ---
 ## Installation
 
