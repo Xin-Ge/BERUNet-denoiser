@@ -3,7 +3,7 @@
 
  Xin Ge, Yu Zhu, Liping Qi, Yaoqi Hu, Jinqiu Sun and Yanning Zhang
 
-[![paper](https://img.shields.io/badge/MDPI-Mathematics-blue.svg)](https://www.mdpi.com/2227-7390/13/7/1119)
+Paper:[![paper](https://img.shields.io/badge/MDPI-Mathematics-blue.svg)](https://www.mdpi.com/2227-7390/13/7/1119)
 
 
 <hr />
