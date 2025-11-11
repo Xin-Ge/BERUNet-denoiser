@@ -73,7 +73,7 @@ Before execution, make sure to configure the testing dataset, color mode, and no
 ```
 python main_test_BERUNet_v2_Gaussian.py
 ```
-### 🔹 Gaussian Noise — Blind Denoising
+### 🔹 Gaussian Noise — Blind Denoising (not reported in the paper)
 ```
 python main_test_BERUNet_Blind_v2_Gaussian.py
 ```
