@@ -33,7 +33,7 @@ Running **BERUNet** requires the following dependencies: **PyTorch**, **OpenCV**
    |--trainH
 ```
 
-**Testing Data:** Download from [Baidu Pan](https://pan.baidu.com/s/1BdeWrn96Bck_DZ6cFcoSiw?pwd=bbr6) or [Google Drive](https://github.com/cszn/KAIR), which includes Set12, BSD68, Kodak24, McMaster, and Urban100 datasets. After downloading, organize them as follows:
+**Testing Data:** Download from [Baidu Pan](https://pan.baidu.com/s/19St07LbHyUKf-25urcC7Bg?pwd=mahv) or [Google Drive](https://github.com/cszn/KAIR), which includes Set12, BSD68, Kodak24, McMaster, and Urban100 datasets. After downloading, organize them as follows:
 ```
 |-- testsets
    |-- original
@@ -50,7 +50,7 @@ Running **BERUNet** requires the following dependencies: **PyTorch**, **OpenCV**
 |-- trainsets
    |-- SIDD
 ```
-**Testing Data:** Download the **SIDD Validation Set** from [Baidu Pan](https://pan.baidu.com/s/10qKV4sZXeA8ZHeNXkZT9lw?pwd=n62b) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
+**Testing Data:** Download the **SIDD Validation Set** from [Baidu Pan](https://pan.baidu.com/s/1JSyCpjLaZBWvHUCFlpeRyA?pwd=uvhn) or [Google Drive](https://github.com/cszn/KAIR). After downloading, place them in the following directory:
 ```
 |-- testsets
    |-- original
