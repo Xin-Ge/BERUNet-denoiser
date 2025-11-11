@@ -61,7 +61,7 @@ Running **BERUNet** requires the following dependencies: **PyTorch**, **OpenCV**
          |-- groundtruth
 ```
 ### 🔹 Pretrained Models
-Download pretrained models from [Baidu Pan](https://pan.baidu.com/s/1nuzIsg1lNqmQ3Q3TKe3HPw?pwd=8ppt) or [Google Drive]([https://github.com/cszn/KAIR](https://drive.google.com/file/d/1xqiHJjwvATTQc0WjkrfE7MM0oLqm7dPk/view?usp=sharing)). After downloading, place them in the following directory:
+Download pretrained models from [Baidu Pan](https://pan.baidu.com/s/1nuzIsg1lNqmQ3Q3TKe3HPw?pwd=8ppt) or [Google Drive](https://drive.google.com/file/d/1xqiHJjwvATTQc0WjkrfE7MM0oLqm7dPk/view?usp=sharing). After downloading, place them in the following directory:
 ```
 |-- model_zoo
    |-- BERUNet
