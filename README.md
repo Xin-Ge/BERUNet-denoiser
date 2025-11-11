@@ -89,7 +89,7 @@ python main_test_BERUNet_Blind_v2_Real.py
 ```
 
 ---
-## Training and Evaluation
+## Training
 
 After placing the training data in the specified directories, modify the corresponding JSON file under the `options/` folder according to your hardware setup, then execute the following command lines:
 
