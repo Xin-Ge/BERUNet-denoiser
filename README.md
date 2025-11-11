@@ -118,7 +118,7 @@ python main_train.py --opt options/train_BERUNet_Blind_v2_nb8_256_g020_Xavier_Co
 ```
 
 💡 **Tip:**  
-When running the above commands on a remote **Linux server**, it is recommended to use **tmux** to start a virtual session to prevent training from being interrupted.
+When running the above commands on a remote **Linux server**, it is recommended to use ```tmux``` to start a virtual session to prevent training from being interrupted.
 
 ---
 ## Citation
