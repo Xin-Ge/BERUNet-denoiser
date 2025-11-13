@@ -32,7 +32,7 @@ Running **BERUNet** requires the following dependencies: **PyTorch**, **OpenCV**
 
 ### 🔹 Gaussian Noise Data
 
-**Training Data:** Download from [Baidu Pan](https://pan.baidu.com/s/1oCZuaAcXYCAXFZd2GmXbXw?pwd=s3eh) or Google Drive, which includes BSD, WED, DIV2K, and Flickr2K datasets. After downloading, place them in the following directory:
+**Training Data:** Download from [Baidu Pan](https://pan.baidu.com/s/1oCZuaAcXYCAXFZd2GmXbXw?pwd=s3eh) or [Google Drive](https://drive.google.com/file/d/10yDtrJKX1mM9TFEuCc1TyXvW4eDCez3X/view?usp=sharing), which includes BSD, WED, DIV2K, and Flickr2K datasets. After downloading, place them in the following directory:
 ```
 |--trainsets 
    |--trainH
@@ -50,7 +50,7 @@ Running **BERUNet** requires the following dependencies: **PyTorch**, **OpenCV**
 ```
 ### 🔹 Real-World Noise Data
 
-**Training Data:** Download the **SIDD Training Set** from [Baidu Pan](https://pan.baidu.com/s/164cI2wbqwBVc7YaSKrLn4A?pwd=7nzd) or Google Drive. After downloading, place them in the following directory:
+**Training Data:** Download the **SIDD Training Set** from [Baidu Pan](https://pan.baidu.com/s/164cI2wbqwBVc7YaSKrLn4A?pwd=7nzd) or [Google Drive](https://drive.google.com/file/d/1FuRCWwK1e0Yxn_1PfUw89iGtxdWsX42t/view?usp=sharing). After downloading, place them in the following directory:
 ```
 |-- trainsets
    |-- SIDD
